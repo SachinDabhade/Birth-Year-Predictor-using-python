@@ -35,7 +35,7 @@ if __name__ == '__main__':
         user_input = int(input(f"\n{name} enter the years to see your birth date in future (EX. 100):"))
         
         if len(age_birth) <= 3:
-            if int(age_birth) > 0 and int(age_birth) < 150:
+            if age_birth > 0 and age_birth < 150:
                 age()
             else:
                 print(f"Sorry ...! {name} age can't be greater than 150 and lesser than and 0...!")
